@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCloudDownloadAlt } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faLinkedin,
@@ -8,6 +9,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Intro.module.css";
 import Bounce from "react-reveal/Bounce";
+import Zoom from "react-reveal/Zoom";
 import FileSaver from "file-saver";
 import Footer from "../../Footer/Footer";
 
@@ -19,6 +21,11 @@ const Intro = () => {
     );
   };
 
+  const [state, setState] = useState(false);
+  setTimeout(() => {
+    setState(true);
+  }, 800);
+
   return (
     <Bounce left>
       <div className={styles.top}>
@@ -29,37 +36,41 @@ const Intro = () => {
       </div>
 
       <div className={styles.bottom}>
-        <div className={styles.social}>
-          <span>
-            <a href="www.github.com">
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </span>
-          <span>
-            <a href="www.linkedin.com">
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
-          </span>
-          <span>
-            <a href="www.facebook.com">
-              <FontAwesomeIcon icon={faFacebookSquare} />
-            </a>
-          </span>
-          <span>
-            <a href="www.twitter.com">
-              <FontAwesomeIcon icon={faTwitterSquare} />
-            </a>
-          </span>
-        </div>
+        <Zoom when={state}>
+          <div className={styles.social}>
+            <span>
+              <a href="www.github.com">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+            </span>
+            <span>
+              <a href="www.linkedin.com">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </span>
+            <span>
+              <a href="www.facebook.com">
+                <FontAwesomeIcon icon={faFacebookSquare} />
+              </a>
+            </span>
+            <span>
+              <a href="www.twitter.com">
+                <FontAwesomeIcon icon={faTwitterSquare} />
+              </a>
+            </span>
+          </div>
+        </Zoom>
 
         <div className={styles.resume}>
-          <button className={styles.btn} onClick={saveFile}>
-            Download Resume
-          </button>
+          <Zoom when={state}>
+            <button className={styles.btn} onClick={saveFile}>
+              <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
+            </button>
+          </Zoom>
         </div>
       </div>
 
-      <Footer />
+      <Footer>&copy; {new Date().getFullYear()} built by Nafiul Sabbir.</Footer>
     </Bounce>
   );
 };

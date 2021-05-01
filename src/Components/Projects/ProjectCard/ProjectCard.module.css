@@ -1,0 +1,91 @@
+.card {
+    flex: 0 0 47%;
+    margin-top: 2rem;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+    transition: all .25s;
+}
+
+.title {
+    background-color: rgba(245, 245, 245, 0.219);
+    padding: 1rem 1.5rem;
+}
+
+.title h3 {
+    font-weight: 300;
+}
+
+.imgBox {
+    width: 100%;
+    overflow: hidden;
+}
+
+.img {
+    width: inherit;
+    object-fit: cover;
+    transition: all .35s;
+}
+
+.description {
+    border-right: 2px solid rgba(255, 255, 255, 0.281);
+    border-left: 2px solid rgba(255, 255, 255, 0.281);
+    padding: 1rem 1.25rem;
+    position: relative;
+    transition: all .35s;
+    margin-top: .75rem;
+}
+
+.tech {
+    padding: 1rem 0;
+}
+
+.paragraph {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.288);
+    margin-right: .2rem;
+    margin-bottom: .2rem;
+    padding: .2rem .3rem;
+    border-radius: 2px;
+    font-size: .75rem;
+}
+
+.code {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .35s;
+}
+
+.btn:link,
+.btn:visited {
+    display: block;
+    background-color: #2ec1abd0;
+    padding: 1rem .75rem;
+    margin-right: .5rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.884);
+    transition: all .35s;
+}
+
+.btn:hover {
+    background-color: #2ec1ab8f;
+}
+
+.card:hover .img {
+    transform: scale(1.05);
+}
+
+.card:hover .description p {
+    opacity: .1;
+}
+
+.card:hover .code {
+    opacity: 1;
+    visibility: visible;
+}

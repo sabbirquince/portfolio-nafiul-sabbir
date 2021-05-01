@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Head.module.css";
 import Zoom from "react-reveal/Zoom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileSignature } from "@fortawesome/free-solid-svg-icons";
 
 const Head = () => {
   const [state, setState] = useState(false);
@@ -38,7 +40,9 @@ const Head = () => {
         </Zoom>
 
         <Zoom cascade when={state2}>
-          <button className={styles.btn}>Contact Me</button>
+          <button className={styles.btn}>
+            <FontAwesomeIcon icon={faFileSignature} /> Contact Me
+          </button>
         </Zoom>
       </Zoom>
     </div>

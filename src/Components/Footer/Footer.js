@@ -1,12 +1,10 @@
 import React from "react";
 import styles from "./Footer.module.css";
 
-const Footer = () => {
+const Footer = (props) => {
   return (
     <div className={styles.footer}>
-      <p>
-        &copy;{new Date().getFullYear()} Nafiul Sabbir. All rights reserved.
-      </p>
+      <p>{props.children}</p>
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .head {
-    min-height: 70.25vh;
+    min-height: 71vh;
     margin-top: 1.75rem;
     width: 100%;
     background-color: #222831a1;
@@ -7,24 +7,31 @@
 }
 
 .head h2 {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Vibur', cursive;
 }
 
 .head h1 {
-    font-family: 'Satisfy', cursive;
-    font-size: 2rem;
+    font-family: 'Vibur', cursive;
+    font-size: 2.5rem;
     color: #1ee3cf;
 }
 
 .paragraph {
-    padding: 2.5rem 0;
+    padding: 1.5rem 0;
 }
 
 .btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     cursor: pointer;
     padding: 1rem .75rem;
-    background-color: #2ec1abee;
+    background-color: #2ec1abcc;
     border: none;
     color: whitesmoke;
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
+    transition: all .25s;
+    font-size: 1.125rem;
+}
+
+.btn:hover {
+    background-color: #2ec1ab8a;
 }

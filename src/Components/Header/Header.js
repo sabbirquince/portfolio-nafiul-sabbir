@@ -7,6 +7,7 @@ import Intro from "./Intro/Intro";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
+import Projects from "../Projects/Projects";
 
 const Header = () => {
   return (
@@ -27,7 +28,7 @@ const Header = () => {
             </Route>
 
             <Route path="/projects">
-              <h1>projects</h1>
+              <Projects />
             </Route>
 
             <Route path="/blogs">
@@ -44,7 +45,10 @@ const Header = () => {
           </Switch>
 
           <Bounce bottom>
-            <Footer />
+            <Footer>
+              &copy;{new Date().getFullYear()} Nafiul Sabbir. All rights
+              reserved.
+            </Footer>
           </Bounce>
         </section>
       </Router>
