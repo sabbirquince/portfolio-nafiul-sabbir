@@ -3,6 +3,7 @@
 }
 
 .infoBox h2 {
+    font-weight: 300;
     color: #2ec1abd0;
 }
 
@@ -41,4 +42,8 @@
     justify-content: center;
     margin-left: 1rem;
     flex: 1;
+}
+
+.info__text h4 {
+    font-weight: 300;
 }

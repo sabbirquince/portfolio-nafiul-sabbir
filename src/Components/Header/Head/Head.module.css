@@ -6,7 +6,12 @@
     padding: 3.5rem;
 }
 
+.head h2 {
+    font-family: 'Satisfy', cursive;
+}
+
 .head h1 {
+    font-family: 'Satisfy', cursive;
     font-size: 2rem;
     color: #1ee3cf;
 }
@@ -16,6 +21,7 @@
 }
 
 .btn {
+    cursor: pointer;
     padding: 1rem .75rem;
     background-color: #2ec1abee;
     border: none;

@@ -8,8 +8,17 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Intro.module.css";
 import Bounce from "react-reveal/Bounce";
+import FileSaver from "file-saver";
+import Footer from "../../Footer/Footer";
 
 const Intro = () => {
+  const saveFile = () => {
+    FileSaver.saveAs(
+      process.env.PUBLIC_URL + "/resources/Resume(Nafiul-Sabbir).pdf",
+      "MyResume.pdf"
+    );
+  };
+
   return (
     <Bounce left>
       <div className={styles.top}>
@@ -44,9 +53,13 @@ const Intro = () => {
         </div>
 
         <div className={styles.resume}>
-          <button className={styles.btn}>Download Resume</button>
+          <button className={styles.btn} onClick={saveFile}>
+            Download Resume
+          </button>
         </div>
       </div>
+
+      <Footer />
     </Bounce>
   );
 };

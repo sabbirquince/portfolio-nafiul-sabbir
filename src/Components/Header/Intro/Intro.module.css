@@ -34,6 +34,7 @@
 }
 
 .name h1 {
+    font-weight: 300;
     font-size: 1.25rem;
     text-align: center;
     overflow: hidden;
@@ -64,6 +65,7 @@
 }
 
 .btn {
+    cursor: pointer;
     padding: 1rem .75rem;
     background-color: #2ec1abee;
     border: none;

@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import Navigation from "./Navbar/Navigation";
 import Head from "./Head/Head";
 import Bounce from "react-reveal/Bounce";
+import Zoom from "react-reveal/Zoom";
 import Intro from "./Intro/Intro";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "../About/About";
@@ -11,12 +12,12 @@ import Footer from "../Footer/Footer";
 const Header = () => {
   return (
     <div className={styles.header}>
-      <section className={styles.left}>
-        <Intro />
-      </section>
+      <Router>
+        <section className={styles.left}>
+          <Intro />
+        </section>
 
-      <section className={styles.right}>
-        <Router>
+        <section className={styles.right}>
           <Bounce top>
             <Navigation />
           </Bounce>
@@ -39,17 +40,15 @@ const Header = () => {
             </Route>
 
             <Route exact path="/">
-              <Bounce right>
-                <Head />
-              </Bounce>
+              <Head />
             </Route>
           </Switch>
-        </Router>
 
-        <Bounce bottom>
-          <Footer />
-        </Bounce>
-      </section>
+          <Bounce bottom>
+            <Footer />
+          </Bounce>
+        </section>
+      </Router>
     </div>
   );
 };
