@@ -8,11 +8,11 @@ const Head = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setState(!state);
+      setState(true);
     }, 700);
 
     setTimeout(() => {
-      setState2(!state2);
+      setState2(true);
     }, 1500);
   }, []);
 

@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../Footer/Footer";
 import styles from "./About.module.css";
 import Bio from "./Bio/Bio";
 import Info from "./Info/Info";
