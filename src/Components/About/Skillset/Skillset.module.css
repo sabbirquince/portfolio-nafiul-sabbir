@@ -1,0 +1,20 @@
+.skillset {
+    padding: 1.5rem 1rem;
+}
+
+.skillset h2 {
+    color: #2ec1abd0;
+}
+
+.skillset div {
+    margin-top: 1rem;
+}
+
+.skillset span {
+    padding: .25rem;
+    background-color: #f2f4f650;
+    border-radius: 1.25px;
+    color: white;
+    font-size: .8rem;
+    margin-right: .2rem;
+}

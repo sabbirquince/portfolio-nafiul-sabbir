@@ -1,6 +1,24 @@
 .head {
-    min-height: 70vh;
+    min-height: 70.25vh;
     margin-top: 1.75rem;
     width: 100%;
     background-color: #222831a1;
+    padding: 3.5rem;
+}
+
+.head h1 {
+    font-size: 2rem;
+    color: #1ee3cf;
+}
+
+.paragraph {
+    padding: 2.5rem 0;
+}
+
+.btn {
+    padding: 1rem .75rem;
+    background-color: #2ec1abee;
+    border: none;
+    color: whitesmoke;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.5);
 }

@@ -1,59 +1,54 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faFacebookSquare,
-  faTwitterSquare,
-} from "@fortawesome/free-brands-svg-icons";
 import styles from "./Header.module.css";
 import Navigation from "./Navbar/Navigation";
 import Head from "./Head/Head";
+import Bounce from "react-reveal/Bounce";
+import Intro from "./Intro/Intro";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import About from "../About/About";
+import Footer from "../Footer/Footer";
 
 const Header = () => {
   return (
     <div className={styles.header}>
       <section className={styles.left}>
-        <div className={styles.top}>
-          <div className={styles.name}>
-            <h1>Nafiul Sabbir</h1>
-            <span>Jr. Web Developer</span>
-          </div>
-        </div>
-
-        <div className={styles.bottom}>
-          <div className={styles.social}>
-            <span>
-              <a href="www.github.com">
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-            </span>
-            <span>
-              <a href="www.linkedin.com">
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-            </span>
-            <span>
-              <a href="www.facebook.com">
-                <FontAwesomeIcon icon={faFacebookSquare} />
-              </a>
-            </span>
-            <span>
-              <a href="www.twitter.com">
-                <FontAwesomeIcon icon={faTwitterSquare} />
-              </a>
-            </span>
-          </div>
-
-          <div className={styles.resume}>
-            <button className={styles.btn}>Download Resume</button>
-          </div>
-        </div>
+        <Intro />
       </section>
 
       <section className={styles.right}>
-        <Navigation />
-        <Head />
+        <Router>
+          <Bounce top>
+            <Navigation />
+          </Bounce>
+
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+
+            <Route path="/projects">
+              <h1>projects</h1>
+            </Route>
+
+            <Route path="/blogs">
+              <h1>blogs</h1>
+            </Route>
+
+            <Route path="/contact">
+              <h1>contact</h1>
+            </Route>
+
+            <Route exact path="/">
+              <Bounce right>
+                <Head />
+              </Bounce>
+            </Route>
+          </Switch>
+        </Router>
+
+        <Bounce bottom>
+          <Footer />
+        </Bounce>
       </section>
     </div>
   );

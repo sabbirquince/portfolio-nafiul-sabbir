@@ -1,0 +1,44 @@
+.infoBox {
+    padding: 1.5rem 1rem;
+}
+
+.infoBox h2 {
+    color: #2ec1abd0;
+}
+
+.infoDetails {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 50%;
+    margin-top: 1.5rem;
+}
+
+.info__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 18%;
+    height: 4rem;
+    font-size: 1.25rem;
+    background-color: #2ec1abd0;
+    border-radius: 50%;
+    transition: all .3s;
+}
+
+.info__icon:hover {
+    background-color: #a92ee677;
+}
+
+.info__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+    flex: 1;
+}
