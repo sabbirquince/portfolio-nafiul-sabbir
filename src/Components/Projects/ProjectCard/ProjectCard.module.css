@@ -89,3 +89,13 @@
     opacity: 1;
     visibility: visible;
 }
+
+
+@media only screen and (max-width:600px) {
+    .card {
+        flex: 0 0 100%;
+        margin-top: 2rem;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+        transition: all .25s;
+    }
+}

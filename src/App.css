@@ -16,3 +16,21 @@
   background-size: cover;
   color: aliceblue;
 }
+
+@media only screen and (max-width:1180px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width:1015px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width:945px) {
+  html {
+    font-size: 75%;
+  }
+}

@@ -1,5 +1,5 @@
 .head {
-    min-height: 71vh;
+    min-height: 71.8vh;
     margin-top: 1.75rem;
     width: 100%;
     background-color: #222831a1;
@@ -14,6 +14,10 @@
     font-family: 'Vibur', cursive;
     font-size: 2.5rem;
     color: #1ee3cf;
+}
+
+.right {
+    display: none;
 }
 
 .paragraph {
@@ -34,4 +38,40 @@
 
 .btn:hover {
     background-color: #2ec1ab8a;
+}
+
+@media only screen and (max-width:1025px) {
+    .head {
+        min-height: 80vh;
+        display: flex;
+    }
+
+    .left {
+        flex: 1;
+        padding-right: 5%;
+    }
+
+    .right {
+        display: block;
+        flex: 0 0 50%;
+    }
+
+}
+
+@media only screen and (max-width:700px) {
+    .right {
+        flex: 0 0 35%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .head {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+
+    .right {
+        order: -1;
+        margin-bottom: 3rem;
+    }
 }

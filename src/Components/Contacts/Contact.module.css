@@ -1,0 +1,12 @@
+.contact {
+    min-height: 71.8vh;
+    margin-top: 1.75rem;
+    width: 100%;
+    background-color: #222831a1;
+    padding: 2.25rem;
+}
+
+.contact h2 {
+    font-weight: 300;
+    color: #2ec1abd0;
+}

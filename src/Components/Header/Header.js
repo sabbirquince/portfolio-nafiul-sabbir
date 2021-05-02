@@ -8,12 +8,14 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "../About/About";
 import Footer from "../Footer/Footer";
 import Projects from "../Projects/Projects";
+import Blogs from "../Blogs/Blogs";
+import Contact from "../Contacts/Contact";
 
 const Header = () => {
   return (
     <div className={styles.header}>
       <Router>
-        <section className={styles.left}>
+        <section className={`${styles.left} ${styles.left__collapse}`}>
           <Intro />
         </section>
 
@@ -32,11 +34,11 @@ const Header = () => {
             </Route>
 
             <Route path="/blogs">
-              <h1>blogs</h1>
+              <Blogs />
             </Route>
 
             <Route path="/contact">
-              <h1>contact</h1>
+              <Contact />
             </Route>
 
             <Route exact path="/">

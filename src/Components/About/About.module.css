@@ -5,3 +5,9 @@
     background-color: #222831a1;
     padding: 1.5rem 1rem;
 }
+
+@media only screen and (max-width:1025px) {
+    .about {
+        min-height: 50.5vh;
+    }
+}

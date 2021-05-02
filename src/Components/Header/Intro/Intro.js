@@ -70,7 +70,11 @@ const Intro = () => {
         </div>
       </div>
 
-      <Footer>&copy; {new Date().getFullYear()} built by Nafiul Sabbir.</Footer>
+      <div className={styles.footer__collapse}>
+        <Footer>
+          &copy; {new Date().getFullYear()} built by Nafiul Sabbir.
+        </Footer>
+      </div>
     </Bounce>
   );
 };

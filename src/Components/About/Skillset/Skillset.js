@@ -14,15 +14,15 @@ const Skillset = () => {
           <span>ES6</span>
           <span>React.js</span>
           <span>Bootstrap</span>
-          <span>SASS</span>
-          <span>Express.js</span>
-          <span>MongoDB</span>
-          <span>Responsiveness</span>
+          <span>React-Bootstrap</span>
         </div>
         <div>
+          <span>MongoDB</span>
+          <span>Express.js</span>
+          <span>Responsiveness</span>
           <span>VS Code</span>
           <span>Firebase</span>
-          <span>React-Bootstrap</span>
+          <span>SASS</span>
           <span>REST API</span>
         </div>
       </div>
