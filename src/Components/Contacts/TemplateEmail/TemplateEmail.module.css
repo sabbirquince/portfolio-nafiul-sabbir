@@ -1,0 +1,82 @@
+.form {
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__input {
+    flex: 0 0 48.5%;
+}
+
+.form label {
+    padding: .5rem .1rem;
+}
+
+
+.inputField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8rem;
+}
+
+.input {
+    padding: .35rem;
+}
+
+.input,
+.textarea {
+    background-color: rgba(255, 255, 255, 0.233);
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.textarea {
+    padding: .25rem .35rem 1.5rem;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.1rem;
+    background-color: #2ec1abcc;
+    color: whitesmoke;
+    margin-top: .5rem;
+    border: none;
+    padding: .5rem 1rem;
+    transition: all .25s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #2ec1ab88;
+}
+
+.form p {
+    background-color: rgba(255, 255, 255, 0.137);
+    color: #2ec1abcc;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    transition: all .25s;
+    border-radius: 1.5px;
+}
+
+.form span {
+    display: block;
+    font-size: 2.5rem;
+}
+
+@media only screen and (max-width:600px) {
+    .top {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+    }
+}

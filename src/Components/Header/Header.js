@@ -46,12 +46,9 @@ const Header = () => {
             </Route>
           </Switch>
 
-          <Bounce bottom>
-            <Footer>
-              &copy;{new Date().getFullYear()} Nafiul Sabbir. All rights
-              reserved.
-            </Footer>
-          </Bounce>
+          <Footer>
+            &copy;{new Date().getFullYear()} Nafiul Sabbir. All rights reserved.
+          </Footer>
         </section>
       </Router>
     </div>
