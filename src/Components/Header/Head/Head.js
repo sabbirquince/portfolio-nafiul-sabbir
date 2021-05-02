@@ -27,7 +27,7 @@ const Head = () => {
           <h1>
             <Zoom cascade>Nafiul Sabbir</Zoom>
             <Zoom cascade when={state}>
-              A Web Developer
+              A Front-end Developer
             </Zoom>
           </h1>
           <Zoom cascade when={state2}>

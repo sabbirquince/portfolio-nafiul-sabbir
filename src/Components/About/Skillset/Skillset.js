@@ -15,8 +15,6 @@ const Skillset = () => {
           <span>React.js</span>
           <span>Bootstrap</span>
           <span>React-Bootstrap</span>
-        </div>
-        <div>
           <span>MongoDB</span>
           <span>Express.js</span>
           <span>Responsiveness</span>

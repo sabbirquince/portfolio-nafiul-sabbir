@@ -18,4 +18,6 @@
     color: white;
     font-size: .8rem;
     margin-right: .2rem;
+    margin-bottom: .25rem;
+    display: inline-block;
 }
