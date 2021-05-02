@@ -2,11 +2,11 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faAt, faMapSigns } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Info.module.css";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Info = () => {
   return (
-    <Zoom cascade>
+    <Fade top cascade>
       <section className={styles.infoBox}>
         <h2>About Info</h2>
 
@@ -42,7 +42,7 @@ const Info = () => {
           </div>
         </div>
       </section>
-    </Zoom>
+    </Fade>
   );
 };
 

@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Bio.module.css";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Bio = () => {
   return (
-    <Zoom cascade>
+    <Fade top cascade>
       <div className={styles.bio}>
         <h2>Short Bio</h2>
         <p>
@@ -16,7 +16,7 @@ const Bio = () => {
           learning more and more.
         </p>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 

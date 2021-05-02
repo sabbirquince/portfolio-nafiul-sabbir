@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./Contact.module.css";
 import TemplateEmail from "./TemplateEmail/TemplateEmail";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Contact = () => {
   return (
     <div className={styles.contact}>
       <h2>Contact Me</h2>
-      <Zoom>
+      <Fade top>
         <TemplateEmail />
-      </Zoom>
+      </Fade>
     </div>
   );
 };

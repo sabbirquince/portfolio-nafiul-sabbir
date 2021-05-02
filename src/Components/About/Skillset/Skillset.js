@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Skillset.module.css";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 
 const Skillset = () => {
   return (
-    <Zoom cascade>
+    <Fade top cascade>
       <div className={styles.skillset}>
         <h2>My Skill Set</h2>
         <div>
@@ -26,7 +26,7 @@ const Skillset = () => {
           <span>REST API</span>
         </div>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 

@@ -1,12 +1,12 @@
 import React from "react";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 import styles from "./ProjectCard.module.css";
 
 const ProjectCard = ({ project, index }) => {
   const { picture, title, description, github, live, tech } = project;
 
   return (
-    <Zoom>
+    <Fade top cascade>
       <div className={styles.card}>
         <div className={styles.title}>
           <h3>{title}</h3>
@@ -45,7 +45,7 @@ const ProjectCard = ({ project, index }) => {
           ))}
         </div>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 
