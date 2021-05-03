@@ -1,6 +1,5 @@
 import React from "react";
 import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
 import styles from "./ProjectCard.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
@@ -11,13 +10,11 @@ const ProjectCard = ({ project, index }) => {
   return (
     <div className={styles.card}>
       <div className={styles.title}>
-        <div>
-          <Zoom cascade>
+        <Zoom cascade>
+          <div>
             <h3>{title}</h3>
-          </Zoom>
-        </div>
-        <div>
-          <Zoom cascade>
+          </div>
+          <div>
             <span className={styles.span}>
               <a target="_blank" rel="noreferrer" href={github}>
                 <FontAwesomeIcon icon={faCode} />
@@ -28,20 +25,16 @@ const ProjectCard = ({ project, index }) => {
                 <FontAwesomeIcon icon={faExternalLinkAlt} />
               </a>
             </span>
-          </Zoom>
-        </div>
+          </div>
+        </Zoom>
       </div>
 
       <div className={styles.imgBox}>
-        <Fade cascade>
-          <img className={styles.img} src={picture} alt="" />
-        </Fade>
+        <img className={styles.img} src={picture} alt="" />
       </div>
 
       <div className={styles.description}>
-        <p className={styles.text}>
-          <Zoom cascade>{description}</Zoom>
-        </p>
+        <p className={styles.text}>{description}</p>
 
         <div className={styles.code}>
           <a

@@ -13,39 +13,33 @@ const Info = () => {
 
       <div className={styles.infoDetails}>
         <div className={styles.info}>
-          <Zoom cascade>
-            <div className={styles.info__icon}>
-              <FontAwesomeIcon icon={faUser} />
-            </div>
-            <div className={styles.info__text}>
-              <h4>Name</h4>
-              <p>Nafiul Sabbir</p>
-            </div>
-          </Zoom>
+          <div className={styles.info__icon}>
+            <FontAwesomeIcon icon={faUser} />
+          </div>
+          <div className={styles.info__text}>
+            <h4>Name</h4>
+            <p>Nafiul Sabbir</p>
+          </div>
         </div>
 
         <div className={styles.info}>
-          <Zoom cascade>
-            <div className={styles.info__icon}>
-              <FontAwesomeIcon icon={faAt} />
-            </div>
-            <div className={styles.info__text}>
-              <h4>Email</h4>
-              <p>nafiulsabbir07@gmail.com</p>
-            </div>
-          </Zoom>
+          <div className={styles.info__icon}>
+            <FontAwesomeIcon icon={faAt} />
+          </div>
+          <div className={styles.info__text}>
+            <h4>Email</h4>
+            <p>nafiulsabbir07@gmail.com</p>
+          </div>
         </div>
 
         <div className={styles.info}>
-          <Zoom cascade>
-            <div className={styles.info__icon}>
-              <FontAwesomeIcon icon={faMapSigns} />
-            </div>
-            <div className={styles.info__text}>
-              <h4>Address</h4>
-              <p>Dhaka-1000, Bangladesh</p>
-            </div>
-          </Zoom>
+          <div className={styles.info__icon}>
+            <FontAwesomeIcon icon={faMapSigns} />
+          </div>
+          <div className={styles.info__text}>
+            <h4>Address</h4>
+            <p>Dhaka-1000, Bangladesh</p>
+          </div>
         </div>
       </div>
     </section>

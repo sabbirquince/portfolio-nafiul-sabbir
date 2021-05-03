@@ -10,7 +10,7 @@ import {
 import styles from "./Intro.module.css";
 import FileSaver from "file-saver";
 import Footer from "../../Footer/Footer";
-import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 const Intro = () => {
   const saveFile = () => {
@@ -27,17 +27,17 @@ const Intro = () => {
 
   return (
     <>
-      <Fade top cascade>
-        <div className={styles.top}>
+      <div className={styles.top}>
+        <Zoom cascade>
           <div className={styles.name}>
             <h1>Nafiul Sabbir</h1>
             <span>Jr. Web Developer</span>
           </div>
-        </div>
-      </Fade>
+        </Zoom>
+      </div>
 
       <div className={styles.bottom}>
-        <Fade top cascade when={state}>
+        <Zoom cascade when={state}>
           <div className={styles.social}>
             <span>
               <a href="www.github.com">
@@ -60,14 +60,12 @@ const Intro = () => {
               </a>
             </span>
           </div>
-        </Fade>
+        </Zoom>
 
         <div className={styles.resume}>
-          <Fade top cascade when={state}>
-            <button className={styles.btn} onClick={saveFile}>
-              <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
-            </button>
-          </Fade>
+          <button className={styles.btn} onClick={saveFile}>
+            <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
+          </button>
         </div>
       </div>
 
