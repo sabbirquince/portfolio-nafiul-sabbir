@@ -30,7 +30,7 @@
 
 .img {
     width: inherit;
-    object-fit: cover;
+    object-fit: cover !important;
     opacity: .75 !important;
 }
 

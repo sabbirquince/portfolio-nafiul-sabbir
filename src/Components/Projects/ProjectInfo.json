@@ -50,5 +50,22 @@
       "MongoDB",
       "Firebase"
     ]
+  },
+  {
+    "index": "hdsfhsfhshf15",
+    "picture": "https://i.ibb.co/h9csg7W/departure.png",
+    "title": "Departure City",
+    "description": "A project about urban city's public ride service. User can book ride by setting pick up point and destination point.",
+    "github": "https://github.com/sabbirquince/departure-city",
+    "live": "https://departure-city.web.app",
+    "tech": [
+      "CSS3",
+      "React",
+      "React-router",
+      "JS ES6",
+      "Google Map",
+      "Bootstrap",
+      "Firebase Auth"
+    ]
   }
 ]
