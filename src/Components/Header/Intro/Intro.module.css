@@ -76,6 +76,7 @@
     transition: all .25s;
     position: relative;
     overflow: hidden;
+    z-index: 1;
 }
 
 .btn::before {

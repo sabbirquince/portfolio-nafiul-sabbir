@@ -38,39 +38,45 @@ const TemplateEmail = () => {
 
   return (
     <form className={styles.form} onSubmit={sendEmail}>
-      <div className={styles.top}>
-        <div className={`${styles.inputField} ${styles.top__input}`}>
-          <label>type your name</label>
-          <input
-            className={styles.input}
-            placeholder="your name"
+      <Fade cascade>
+        <div className={styles.top}>
+          <div className={`${styles.inputField} ${styles.top__input}`}>
+            <label>type your name</label>
+            <input
+              className={styles.input}
+              placeholder="your name"
+              type="text"
+              name="name"
+            />
+          </div>
+
+          <div className={`${styles.inputField} ${styles.top__input}`}>
+            <label>type your email</label>
+            <input
+              className={styles.input}
+              placeholder="your email"
+              type="email"
+              name="email"
+            />
+          </div>
+        </div>
+      </Fade>
+
+      <Fade cascade>
+        <div className={styles.inputField}>
+          <label>type your message</label>
+          <textarea
+            className={styles.textarea}
+            placeholder="your message"
             type="text"
-            name="name"
+            name="message"
           />
         </div>
+      </Fade>
 
-        <div className={`${styles.inputField} ${styles.top__input}`}>
-          <label>type your email</label>
-          <input
-            className={styles.input}
-            placeholder="your email"
-            type="email"
-            name="email"
-          />
-        </div>
-      </div>
-
-      <div className={styles.inputField}>
-        <label>type your message</label>
-        <textarea
-          className={styles.textarea}
-          placeholder="your message"
-          type="text"
-          name="message"
-        />
-      </div>
-
-      <input className={styles.btn} type="submit" value="Send" />
+      <Fade cascade>
+        <input className={styles.btn} type="submit" value="Send" />
+      </Fade>
 
       {confirm && (
         <Fade bottom cascade>

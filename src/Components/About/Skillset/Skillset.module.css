@@ -2,7 +2,7 @@
     padding: 1.5rem 1rem;
 }
 
-.skillset h2 {
+.title {
     font-weight: 300;
     color: #2ec1abd0;
 }
@@ -11,7 +11,7 @@
     margin-top: 1rem;
 }
 
-.skillset span {
+.skill {
     padding: .25rem;
     background-color: #f2f4f650;
     border-radius: 1.25px;

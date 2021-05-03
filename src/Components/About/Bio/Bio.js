@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Bio.module.css";
-import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 
 const Bio = () => {
   return (
-    <Fade top cascade>
-      <div className={styles.bio}>
-        <h2>Short Bio</h2>
+    <div className={styles.bio}>
+      <h2>Short Bio</h2>
+      <Zoom cascade>
         <p>
           A web developer with a passion for building modern, responsive web
           applications. I spend considerate amount of time with new tools and
@@ -15,8 +15,8 @@ const Bio = () => {
           all the crafts I have. I'm looking forward to enhance my ability by
           learning more and more.
         </p>
-      </div>
-    </Fade>
+      </Zoom>
+    </div>
   );
 };
 

@@ -20,9 +20,7 @@ const Header = () => {
         </section>
 
         <section className={styles.right}>
-          <Bounce top>
-            <Navigation />
-          </Bounce>
+          <Navigation />
 
           <Switch>
             <Route path="/about">

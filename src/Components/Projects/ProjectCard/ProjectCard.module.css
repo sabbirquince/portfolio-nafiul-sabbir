@@ -6,12 +6,21 @@
 }
 
 .title {
+    display: flex;
+    justify-content: space-between;
     background-color: rgba(245, 245, 245, 0.219);
     padding: 1rem 1.5rem;
 }
 
 .title h3 {
     font-weight: 300;
+    font-size: 1rem;
+}
+
+.span {
+    display: inline-block;
+    padding: 0 .75rem;
+    cursor: pointer;
 }
 
 .imgBox {
@@ -22,7 +31,7 @@
 .img {
     width: inherit;
     object-fit: cover;
-    transition: all .35s;
+    opacity: .75 !important;
 }
 
 .description {
@@ -61,10 +70,18 @@
     transition: all .35s;
 }
 
+a:link,
+a:visited {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.884);
+}
+
 .btn:link,
 .btn:visited {
     display: block;
-    background-color: #2ec1abd0;
+    background-color: #2ec1ab;
     padding: 1rem .75rem;
     margin-right: .5rem;
     cursor: pointer;
@@ -74,14 +91,14 @@
 }
 
 .btn:hover {
-    background-color: #2ec1ab8f;
+    background-color: #583d72;
 }
 
-.card:hover .img {
-    transform: scale(1.05);
+.text {
+    transition: all .25s;
 }
 
-.card:hover .description p {
+.card:hover .text {
     opacity: .1;
 }
 

@@ -8,10 +8,9 @@ import {
   faTwitterSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Intro.module.css";
-import Bounce from "react-reveal/Bounce";
-import Zoom from "react-reveal/Zoom";
 import FileSaver from "file-saver";
 import Footer from "../../Footer/Footer";
+import Fade from "react-reveal/Fade";
 
 const Intro = () => {
   const saveFile = () => {
@@ -27,16 +26,18 @@ const Intro = () => {
   }, 800);
 
   return (
-    <Bounce left>
-      <div className={styles.top}>
-        <div className={styles.name}>
-          <h1>Nafiul Sabbir</h1>
-          <span>Jr. Web Developer</span>
+    <>
+      <Fade top cascade>
+        <div className={styles.top}>
+          <div className={styles.name}>
+            <h1>Nafiul Sabbir</h1>
+            <span>Jr. Web Developer</span>
+          </div>
         </div>
-      </div>
+      </Fade>
 
       <div className={styles.bottom}>
-        <Zoom when={state}>
+        <Fade top cascade when={state}>
           <div className={styles.social}>
             <span>
               <a href="www.github.com">
@@ -59,14 +60,14 @@ const Intro = () => {
               </a>
             </span>
           </div>
-        </Zoom>
+        </Fade>
 
         <div className={styles.resume}>
-          <Zoom when={state}>
+          <Fade top cascade when={state}>
             <button className={styles.btn} onClick={saveFile}>
               <FontAwesomeIcon icon={faCloudDownloadAlt} /> Download Resume
             </button>
-          </Zoom>
+          </Fade>
         </div>
       </div>
 
@@ -75,7 +76,7 @@ const Intro = () => {
           &copy; {new Date().getFullYear()} built by Nafiul Sabbir.
         </Footer>
       </div>
-    </Bounce>
+    </>
   );
 };
 
