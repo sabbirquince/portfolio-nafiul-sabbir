@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Header.module.css";
 import Navigation from "./Navbar/Navigation";
 import Head from "./Head/Head";
-import Bounce from "react-reveal/Bounce";
 import Intro from "./Intro/Intro";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import About from "../About/About";
