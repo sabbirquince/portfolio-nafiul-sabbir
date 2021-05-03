@@ -29,9 +29,7 @@ const Navigation = () => {
             </span>
           </p>
         </Link>
-      </Fade>
 
-      <Fade top cascade>
         <Link
           onClick={() => setActive(2)}
           className={active === 2 && `${styles.active}`}
@@ -44,9 +42,7 @@ const Navigation = () => {
             </span>
           </p>
         </Link>
-      </Fade>
 
-      <Fade top cascade>
         <Link
           onClick={() => setActive(3)}
           className={active === 3 && `${styles.active}`}
@@ -59,9 +55,7 @@ const Navigation = () => {
             </span>
           </p>
         </Link>
-      </Fade>
 
-      <Fade top cascade>
         <Link
           onClick={() => setActive(4)}
           className={active === 4 && `${styles.active}`}
@@ -74,9 +68,7 @@ const Navigation = () => {
             </span>
           </p>
         </Link>
-      </Fade>
 
-      <Fade top cascade>
         <Link
           onClick={() => setActive(5)}
           className={active === 5 && `${styles.active}`}

@@ -40,22 +40,38 @@ const Intro = () => {
         <Zoom cascade when={state}>
           <div className={styles.social}>
             <span>
-              <a href="www.github.com">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://github.com/sabbirquince"
+              >
                 <FontAwesomeIcon icon={faGithub} />
               </a>
             </span>
             <span>
-              <a href="www.linkedin.com">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.linkedin.com/in/nafiulsabbir/"
+              >
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
             </span>
             <span>
-              <a href="www.facebook.com">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://www.facebook.com/nsabbir15"
+              >
                 <FontAwesomeIcon icon={faFacebookSquare} />
               </a>
             </span>
             <span>
-              <a href="www.twitter.com">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://twitter.com/nafiul_sabbir"
+              >
                 <FontAwesomeIcon icon={faTwitterSquare} />
               </a>
             </span>
