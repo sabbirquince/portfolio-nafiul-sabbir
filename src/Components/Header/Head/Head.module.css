@@ -74,4 +74,8 @@
         order: -1;
         margin-bottom: 3rem;
     }
+
+    .btnBox {
+        text-align: center;
+    }
 }

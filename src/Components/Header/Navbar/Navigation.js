@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,9 +11,7 @@ import {
 import styles from "./Navigation.module.css";
 import Fade from "react-reveal/Fade";
 
-const Navigation = () => {
-  const [active, setActive] = useState(1);
-
+const Navigation = ({ active, setActive }) => {
   return (
     <div className={styles.navigation}>
       <Fade top cascade>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Header.module.css";
 import Navigation from "./Navbar/Navigation";
 import Head from "./Head/Head";
@@ -11,6 +11,8 @@ import Blogs from "../Blogs/Blogs";
 import Contact from "../Contacts/Contact";
 
 const Header = () => {
+  const [active, setActive] = useState(1);
+
   return (
     <div className={styles.header}>
       <Router>
@@ -19,7 +21,7 @@ const Header = () => {
         </section>
 
         <section className={styles.right}>
-          <Navigation />
+          <Navigation active={active} setActive={setActive} />
 
           <Switch>
             <Route path="/about">
@@ -39,7 +41,7 @@ const Header = () => {
             </Route>
 
             <Route exact path="/">
-              <Head />
+              <Head setActive={setActive} />
             </Route>
           </Switch>
 

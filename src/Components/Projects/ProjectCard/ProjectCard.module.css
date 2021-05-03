@@ -115,4 +115,12 @@ a:visited {
         border-bottom: 2px solid rgba(255, 255, 255, 0.26);
         transition: all .25s;
     }
+
+    .card:hover .text {
+        opacity: 1;
+    }
+
+    .code {
+        display: none;
+    }
 }
