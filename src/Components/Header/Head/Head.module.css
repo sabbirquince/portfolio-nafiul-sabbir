@@ -8,6 +8,7 @@
 
 .head h2 {
     font-family: 'Vibur', cursive;
+    margin-bottom: 1.2rem;
 }
 
 .head h1 {
@@ -48,7 +49,7 @@
 
     .left {
         flex: 1;
-        padding-right: 5%;
+        padding: 0 1.5rem;
     }
 
     .right {
