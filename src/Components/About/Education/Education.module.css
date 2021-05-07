@@ -1,0 +1,22 @@
+.education {
+    padding: 1.5rem 1rem;
+}
+
+.education h2 {
+    font-weight: 300;
+    color: #2ec1abd0;
+}
+
+.education h4 {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.education p {
+    margin-bottom: 0;
+    font-size: .8rem;
+}
+
+.pursue {
+    margin-top: 1rem;
+}

@@ -1,0 +1,35 @@
+.courses {
+    padding: 1.5rem 1rem;
+}
+
+.courses h2 {
+    font-weight: 300;
+    color: #2ec1abd0;
+}
+
+.attended {
+    display: flex;
+    justify-content: space-between;
+}
+
+.attended div {
+    flex: 1;
+}
+
+.attended article {
+    padding-left: 1.5rem;
+}
+
+.courses h4 {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.courses p {
+    margin-bottom: 0;
+    font-size: .8rem;
+}
+
+.courses small {
+    font-size: .75rem;
+}

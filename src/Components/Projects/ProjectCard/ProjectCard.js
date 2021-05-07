@@ -1,16 +1,16 @@
 import React from "react";
-import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 import styles from "./ProjectCard.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
-const ProjectCard = ({ project, index }) => {
-  const { picture, title, description, github, live, tech } = project;
+const ProjectCard = ({ project }) => {
+  const { picture, title, description, github, live, tech, index } = project;
 
   return (
     <div className={styles.card}>
-      <div className={styles.title}>
-        <Zoom cascade>
+      <Fade left={index} right={!index}>
+        <div className={styles.title}>
           <div>
             <h3>{title}</h3>
           </div>
@@ -26,8 +26,8 @@ const ProjectCard = ({ project, index }) => {
               </a>
             </span>
           </div>
-        </Zoom>
-      </div>
+        </div>
+      </Fade>
 
       <div className={styles.imgBox}>
         <img className={styles.img} src={picture} alt="" />

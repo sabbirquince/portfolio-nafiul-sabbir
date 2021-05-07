@@ -1,6 +1,6 @@
 [
   {
-    "index": "dsfsdfeegg",
+    "index": true,
     "picture": "https://i.ibb.co/bJ79DKJ/team-affair.png",
     "title": "Team Affair",
     "description": "react.js, REST API project about all the sport teams in the world. Search any team by name and by clicking it on the team card explore the details of any team.",
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "index": "hgiugfihfd",
+    "index": false,
     "picture": "https://i.ibb.co/cb0kfZW/rainbow.png",
     "title": "Rainbow Bouquet",
     "description": "A MERN stack project about an event photography management service company. Who takes bookings and serve accordingly.",
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "index": "hdsfhsfhshf",
+    "index": true,
     "picture": "https://i.ibb.co/CVF2y7R/book-syndrome.png",
     "title": "Book Syndrome",
     "description": "A MERN stack project about a book shopping e-commerce service",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "index": "hdsfhsfhshf15",
+    "index": false,
     "picture": "https://i.ibb.co/h9csg7W/departure.png",
     "title": "Departure City",
     "description": "A project about urban city's public ride service. User can book ride by setting pick up point and destination point.",
