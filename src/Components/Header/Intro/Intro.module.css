@@ -50,12 +50,18 @@
     display: flex;
     justify-content: space-evenly;
     padding: 1rem 0;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 
 .social a:link,
 .social a:visited {
     color: whitesmoke;
+    transition: all .25s;
+}
+
+.social a:hover {
+    color: rgba(245, 245, 245, 0.836);
+    transform: translateY(-2.5px) scale(1.1);
 }
 
 .resume {
