@@ -72,7 +72,7 @@
     "index": true,
     "picture": "https://i.ibb.co/7QVn0pd/Cooking-Passion.png",
     "title": "Cooking Passion",
-    "description": "This project is to help with the meal's recipe. Search any meal and by clicking it, see the ingredients of that meal.",
+    "description": "This project is to help with the meal's ingredients. Search any meal and by clicking it, see the ingredients of that meal.",
     "github": "https://github.com/sabbirquince/Cooking-passion",
     "live": "https://sabbirquince.github.io/Assignment-5/",
     "tech": ["CSS3", "JS ES6", "Bootstrap", "REST API"]
