@@ -38,7 +38,7 @@ const Head = ({ setActive }) => {
         </h1>
         <Zoom cascade when={state2}>
           <p className={styles.paragraph}>
-            I build & help creating websites and make sure the users get the
+            I build & help to create websites and make sure the users get a
             better experience.
           </p>
         </Zoom>
