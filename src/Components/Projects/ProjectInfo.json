@@ -1,21 +1,5 @@
 [
   {
-    "index": true,
-    "picture": "https://i.ibb.co/fYkr4gk/team-affair.png",
-    "title": "Team Affair",
-    "description": "react.js, REST API project about all the sport teams in the world. Search any team by name and by clicking it on the team card explore the details of any team.",
-    "github": "https://github.com/sabbirquince/Team-Affair",
-    "live": "https://team-affiar.web.app",
-    "tech": [
-      "React",
-      "REST API",
-      "JS",
-      "React-Bootstrap",
-      "Bootstrap",
-      "React-router"
-    ]
-  },
-  {
     "index": false,
     "picture": "https://i.ibb.co/kqWwJBm/rainbow.png",
     "title": "Rainbow Bouquet",
@@ -31,6 +15,22 @@
       "Express.js",
       "MongoDB",
       "Firebase"
+    ]
+  },
+  {
+    "index": true,
+    "picture": "https://i.ibb.co/fYkr4gk/team-affair.png",
+    "title": "Team Affair",
+    "description": "react.js, REST API project about all the sport teams in the world. Search any team by name and by clicking it on the team card explore the details of any team.",
+    "github": "https://github.com/sabbirquince/Team-Affair",
+    "live": "https://team-affiar.web.app",
+    "tech": [
+      "React",
+      "REST API",
+      "JS",
+      "React-Bootstrap",
+      "Bootstrap",
+      "React-router"
     ]
   },
   {
