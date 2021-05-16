@@ -11,11 +11,11 @@ const Bio = () => {
 
       <p>
         A web developer with a passion for building modern, responsive web
-        applications. I spend considerate amount of time with new tools and
+        applications. I spend a considerate amount of time with new tools and
         technologies to grant better user experiences for the users. With over 1
-        year experience as a front-end developer I helped my community with all
-        the crafts I have. I'm looking forward to enhance my ability by learning
-        more and more.
+        year of experience as a front-end developer, I helped my community with
+        all the crafts I have. I'm looking forward to enhancing my ability
+        learning more and more.
       </p>
     </div>
   );
