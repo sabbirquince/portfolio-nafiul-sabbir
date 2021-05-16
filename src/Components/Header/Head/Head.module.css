@@ -17,6 +17,10 @@
     color: #1ee3cfe1;
 }
 
+.left span {
+    display: block;
+}
+
 .right {
     display: none;
 }

@@ -7,19 +7,6 @@ import Intro from "../Intro/Intro";
 import { useHistory } from "react-router";
 
 const Head = ({ setActive }) => {
-  const [state, setState] = useState(false);
-  const [state2, setState2] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setState(true);
-    }, 700);
-
-    setTimeout(() => {
-      setState2(true);
-    }, 1500);
-  }, []);
-
   const history = useHistory();
   const handleContact = () => {
     history.push("/contact");
@@ -30,13 +17,12 @@ const Head = ({ setActive }) => {
     <div className={styles.head}>
       <section className={styles.left}>
         <h2>Hi, I'm</h2>
-        <h1>
-          <Zoom cascade>Nafiul Sabbir</Zoom>
-          <Zoom cascade when={state}>
-            A Front-end Developer
-          </Zoom>
-        </h1>
-        <Zoom cascade when={state2}>
+        <Zoom cascade>
+          <h1>
+            <span>Nafiul Sabbir</span>
+            <span>A Front-end Developer</span>
+          </h1>
+
           <p className={styles.paragraph}>
             I build & help to create websites and make sure the users get a
             better experience.
