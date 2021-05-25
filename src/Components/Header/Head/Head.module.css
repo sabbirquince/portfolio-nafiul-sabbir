@@ -99,7 +99,7 @@
 @keyframes titleHeadAnim {
     0% {
         transform: translateY(-10px);
-        opacity: .25;
+        opacity: 0;
     }
 
     100% {

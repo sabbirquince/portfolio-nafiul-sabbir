@@ -18,7 +18,7 @@ const Head = ({ setActive }) => {
         <h2>Hi, I'm</h2>
 
         <h1>
-          <span className={styles.Name}>Nafiul Sabbir</span>
+          <span className={styles.name}>Nafiul Sabbir</span>
           <span className={styles.title}>A Front-end Developer</span>
         </h1>
 
