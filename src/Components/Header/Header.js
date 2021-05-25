@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import styles from "./Header.module.css";
 import Navigation from "./Navbar/Navigation";
 import Head from "./Head/Head";
@@ -29,19 +29,27 @@ const Header = () => {
 
           <Switch>
             <Route path="/about">
-              <About />
+              <Suspense fallback={<div>Loading...</div>}>
+                <About />
+              </Suspense>
             </Route>
 
             <Route path="/projects">
-              <Projects />
+              <Suspense fallback={<div>Loading...</div>}>
+                <Projects />
+              </Suspense>
             </Route>
 
             <Route path="/blogs">
-              <Blogs />
+              <Suspense fallback={<div>Loading...</div>}>
+                <Blogs />
+              </Suspense>
             </Route>
 
             <Route path="/contact">
-              <Contact />
+              <Suspense fallback={<div>Loading...</div>}>
+                <Contact />
+              </Suspense>
             </Route>
 
             <Route exact path="/">
