@@ -91,15 +91,13 @@
 /* animation  */
 @keyframes titleHeadAnim {
     0% {
-        transform: scale(.25);
-    }
-
-    50% {
-        transform: scale(1.07);
+        transform: scale(.85) translateY(-10px);
+        opacity: .5;
     }
 
     100% {
-        transform: scale(1);
+        transform: scale(1) translateY(0);
+        opacity: 1;
     }
 
 }
