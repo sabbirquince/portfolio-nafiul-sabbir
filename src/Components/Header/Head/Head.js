@@ -17,7 +17,7 @@ const Head = ({ setActive }) => {
       <section className={styles.left}>
         <h2>Hi, I'm</h2>
 
-        <h1>
+        <h1 className={styles.titleName}>
           <span>Nafiul Sabbir</span>
           <span>A Front-end Developer</span>
         </h1>
