@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Head.module.css";
-import Zoom from "react-reveal/Zoom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileSignature } from "@fortawesome/free-solid-svg-icons";
 import Intro from "../Intro/Intro";
@@ -17,17 +16,16 @@ const Head = ({ setActive }) => {
     <div className={styles.head}>
       <section className={styles.left}>
         <h2>Hi, I'm</h2>
-        <Zoom cascade>
-          <h1>
-            <span>Nafiul Sabbir</span>
-            <span>A Front-end Developer</span>
-          </h1>
 
-          <p className={styles.paragraph}>
-            I build & help to create websites and make sure the users get a
-            better experience.
-          </p>
-        </Zoom>
+        <h1>
+          <span>Nafiul Sabbir</span>
+          <span>A Front-end Developer</span>
+        </h1>
+
+        <p className={styles.paragraph}>
+          I build & help to create websites and make sure the users get a better
+          experience.
+        </p>
 
         <div className={styles.btnBox}>
           <button onClick={handleContact} className={styles.btn}>
