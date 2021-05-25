@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloudDownloadAlt } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -20,10 +20,10 @@ const Intro = () => {
     );
   };
 
-  const [state, setState] = useState(false);
-  setTimeout(() => {
-    setState(true);
-  }, 800);
+  // const [state, setState] = useState(false);
+  // setTimeout(() => {
+  //   setState(true);
+  // }, 800);
 
   return (
     <>
