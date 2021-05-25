@@ -37,46 +37,44 @@ const Intro = () => {
       </div>
 
       <div className={styles.bottom}>
-        <Zoom cascade when={state}>
-          <div className={styles.social}>
-            <span>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://github.com/sabbirquince"
-              >
-                <FontAwesomeIcon icon={faGithub} />
-              </a>
-            </span>
-            <span>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://www.linkedin.com/in/nafiulsabbir/"
-              >
-                <FontAwesomeIcon icon={faLinkedin} />
-              </a>
-            </span>
-            <span>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://www.facebook.com/nsabbir15"
-              >
-                <FontAwesomeIcon icon={faFacebookSquare} />
-              </a>
-            </span>
-            <span>
-              <a
-                rel="noreferrer"
-                target="_blank"
-                href="https://twitter.com/nafiul_sabbir"
-              >
-                <FontAwesomeIcon icon={faTwitterSquare} />
-              </a>
-            </span>
-          </div>
-        </Zoom>
+        <div className={styles.social}>
+          <span>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://github.com/sabbirquince"
+            >
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
+          </span>
+          <span>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.linkedin.com/in/nafiulsabbir/"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </span>
+          <span>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://www.facebook.com/nsabbir15"
+            >
+              <FontAwesomeIcon icon={faFacebookSquare} />
+            </a>
+          </span>
+          <span>
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://twitter.com/nafiul_sabbir"
+            >
+              <FontAwesomeIcon icon={faTwitterSquare} />
+            </a>
+          </span>
+        </div>
 
         <div className={styles.resume}>
           <button className={styles.btn} onClick={saveFile}>

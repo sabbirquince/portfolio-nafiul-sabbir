@@ -51,6 +51,8 @@
     justify-content: space-evenly;
     padding: 1rem 0;
     font-size: 1.6rem;
+    animation: titleHeadAnim 1s ease-in .1s backwards;
+    transition: all .5s;
 }
 
 .social a:link,
@@ -139,5 +141,18 @@
 
     .name {
         background-color: #08ffc931;
+    }
+}
+
+/* animation  */
+@keyframes titleHeadAnim {
+    0% {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
     }
 }
