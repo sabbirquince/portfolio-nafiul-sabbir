@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
   return (
     <div className={styles.card}>
       <div className={styles.title}>
-        <Zoom left={index} right={!index}>
+        <Zoom cascade>
           <div>
             <h3>{title}</h3>
           </div>
