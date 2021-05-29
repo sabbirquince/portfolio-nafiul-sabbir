@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({ project }) => {
-  const { picture, title, description, github, live, tech, index } = project;
+  const { picture, title, description, github, live, tech } = project;
 
   return (
     <div className={styles.card}>
