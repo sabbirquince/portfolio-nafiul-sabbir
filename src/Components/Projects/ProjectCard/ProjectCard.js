@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import Zoom from "react-reveal/Zoom";
 import styles from "./ProjectCard.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div className={styles.card}>
-      <Fade left={index} right={!index}>
+      <Zoom left={index} right={!index}>
         <div className={styles.title}>
           <div>
             <h3>{title}</h3>
@@ -27,7 +27,7 @@ const ProjectCard = ({ project }) => {
             </span>
           </div>
         </div>
-      </Fade>
+      </Zoom>
 
       <div className={styles.imgBox}>
         <img className={styles.img} src={picture} alt="" />
