@@ -9,8 +9,8 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div className={styles.card}>
-      <Zoom left={index} right={!index}>
-        <div className={styles.title}>
+      <div className={styles.title}>
+        <Zoom left={index} right={!index}>
           <div>
             <h3>{title}</h3>
           </div>
@@ -26,8 +26,8 @@ const ProjectCard = ({ project }) => {
               </a>
             </span>
           </div>
-        </div>
-      </Zoom>
+        </Zoom>
+      </div>
 
       <div className={styles.imgBox}>
         <img className={styles.img} src={picture} alt="" />
