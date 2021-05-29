@@ -25,6 +25,8 @@ const Skillset = () => {
 
         <span className={styles.skill}>MongoDB</span>
 
+        <span className={styles.skill}>Node.js</span>
+
         <span className={styles.skill}>Express.js</span>
 
         <span className={styles.skill}>Responsiveness</span>
@@ -32,6 +34,8 @@ const Skillset = () => {
         <span className={styles.skill}>VS Code</span>
 
         <span className={styles.skill}>Firebase</span>
+
+        <span className={styles.skill}>JWT Auth</span>
 
         <span className={styles.skill}>SASS</span>
 
