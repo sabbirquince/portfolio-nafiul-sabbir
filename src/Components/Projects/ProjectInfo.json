@@ -76,5 +76,14 @@
     "github": "https://github.com/sabbirquince/Cooking-passion",
     "live": "https://sabbirquince.github.io/Assignment-5/",
     "tech": ["CSS3", "JS ES6", "Bootstrap", "REST API"]
+  },
+  {
+    "index": false,
+    "picture": "https://i.ibb.co/6D4q795/natours.png",
+    "title": "Natours Tours",
+    "description": "A SASS project, that is about a tour agency with various services and packages to book",
+    "github": "https://github.com/sabbirquince/natours",
+    "live": "https://sabbirquince.github.io/natours/",
+    "tech": ["HTML5", "CSS3", "SASS", "SCSS"]
   }
 ]
