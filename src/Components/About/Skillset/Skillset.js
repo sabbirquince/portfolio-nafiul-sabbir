@@ -19,6 +19,8 @@ const Skillset = () => {
 
         <span className={styles.skill}>React.js</span>
 
+        <span className={styles.skill}>Redux</span>
+
         <span className={styles.skill}>Bootstrap</span>
 
         <span className={styles.skill}>React-Bootstrap</span>
