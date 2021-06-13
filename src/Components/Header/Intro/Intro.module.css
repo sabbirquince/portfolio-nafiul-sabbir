@@ -11,7 +11,7 @@
 
 .top {
     height: 60%;
-    background-image: linear-gradient(to bottom, rgba(42, 61, 12, 0.075), rgba(14, 87, 85, 0.534)), url("../../../images/S15_5864-5.JPG");
+    background-image: linear-gradient(to bottom, rgba(42, 61, 12, 0.075), rgba(14, 87, 85, 0.253)), url("../../../images/S15_5864-5.JPG");
     background-size: cover;
     background-position: top;
     border-radius: 1.25px;
