@@ -21,7 +21,7 @@
     "index": false,
     "picture": "https://i.ibb.co/fYkr4gk/team-affair.png",
     "title": "Team Affair",
-    "description": "react.js, REST API project about all the sport teams in the world. Search any team by name and by clicking it on the team card explore the details of any team.",
+    "description": "React.js, REST API project about all the sport teams in the world. Search any team by name and by clicking it on the team card explore the details of any team.",
     "github": "https://github.com/sabbirquince/Team-Affair",
     "live": "https://team-affiar.web.app",
     "tech": [
@@ -50,6 +50,15 @@
       "MongoDB",
       "Firebase"
     ]
+  },
+  {
+    "index": true,
+    "picture": "https://i.ibb.co/XJXVvwr/metanoia.png",
+    "title": "Metanoia Project",
+    "description": "SCSS & Bootstrap project about a photography blog and contests.",
+    "github": "https://github.com/sabbirquince/metanoia-project",
+    "live": "https://sabbirquince.github.io/metanoia-project/",
+    "tech": ["CSS", "CSS3", "SCSS", "Bootstrap", "NPM"]
   },
   {
     "index": false,
