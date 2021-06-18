@@ -35,7 +35,7 @@
       "Firebase"
     ]
   },
-   {
+  {
     "index": false,
     "picture": "https://i.ibb.co/fYkr4gk/team-affair.png",
     "title": "Team Affair",
@@ -85,7 +85,7 @@
     "github": "https://github.com/sabbirquince/natours",
     "live": "https://sabbirquince.github.io/natours/",
     "tech": ["HTML5", "CSS3", "SASS", "SCSS"]
-  }
+  },
   {
     "index": true,
     "picture": "https://i.ibb.co/HtRHwDT/Cooking-Passion.png",
