@@ -18,22 +18,6 @@
     ]
   },
   {
-    "index": false,
-    "picture": "https://i.ibb.co/fYkr4gk/team-affair.png",
-    "title": "Team Affair",
-    "description": "React.js, REST API project about all the sport teams in the world. Search any team by name and by clicking it on the team card explore the details of any team.",
-    "github": "https://github.com/sabbirquince/Team-Affair",
-    "live": "https://team-affiar.web.app",
-    "tech": [
-      "React",
-      "REST API",
-      "JS",
-      "React-Bootstrap",
-      "Bootstrap",
-      "React-router"
-    ]
-  },
-  {
     "index": true,
     "picture": "https://i.ibb.co/RDCRKnb/book-syndrome.png",
     "title": "Book Syndrome",
@@ -49,6 +33,22 @@
       "Express.js",
       "MongoDB",
       "Firebase"
+    ]
+  },
+   {
+    "index": false,
+    "picture": "https://i.ibb.co/fYkr4gk/team-affair.png",
+    "title": "Team Affair",
+    "description": "React.js, REST API project about all the sport teams in the world. Search any team by name and by clicking it on the team card explore the details of any team.",
+    "github": "https://github.com/sabbirquince/Team-Affair",
+    "live": "https://peaceful-euler-ef7c2a.netlify.app/",
+    "tech": [
+      "React",
+      "REST API",
+      "JS",
+      "React-Bootstrap",
+      "Bootstrap",
+      "React-router"
     ]
   },
   {
